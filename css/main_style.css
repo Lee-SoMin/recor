@@ -389,7 +389,7 @@ body {
 
 .content5 {
     background-color: #30565A;
-    height: 930px;
+    height: 850px;
     box-sizing: border-box;
 }
 .content5_wrap{
@@ -472,7 +472,7 @@ body {
         transition:  transform 0.5s;
   }
   #footer{
-    height: 120px;
+    height: 150px;
     background-color: #405852;
   }
   .text_wrap{
@@ -482,7 +482,7 @@ body {
     font-family: jamak, sans-serif;
     font-style: normal;
     font-weight: 300;
-    padding-top: 30px;
+    padding-top: 50px;
     line-height: 30px;
-    font-size: 12px;
+    font-size: 15px;
   }
