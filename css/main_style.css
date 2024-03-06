@@ -357,7 +357,7 @@ body {
     position: absolute;
     bottom: 200px;
     right: 50%;
-    margin-right: -720px;
+    margin-right: -600px;
     z-index: 15;
 }
 .link {
