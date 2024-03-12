@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>detail_page</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="image/logo2.png" type="image/x-icon">
+    <!-- webfont -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'eau7ogs',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <!-- XEicon -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/xpressengine/xeicon@2.3.1/xeicon.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/detail.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="top">
+            <div class="header">
+                <div class="logo"><a href="index.html"><img src="image/logo1.png" alt="Logo"></a></div>
+                <div class="gnb_wrap">
+                    <ul class="gnb">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="#">FIND</a></li>
+                        <li><a href="#">NOTICE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="product_img">
+            <div class="section">
+                <div class="img_wrap">
+                    <div class="img_slide">
+                        <p class="img1 img"></p>
+                        <p class="img2 img"></p>
+                        <p class="img3 img"></p>
+                    </div>
+                </div>
+                <div class="link">
+                    <p class="category">category >product > perfume</p>
+                    <p class="collection">ReCor of [ ]</p>
+                    <h1>ReCor of SANTAL MUSK</h1>
+                    <p class="what">샌달우드 | 베티버 | 무화과 | 카다멈</p>
+                    <h2 class="price">38,000원</h2>
+                    <p class="explane">
+                        베티버와 샌달우드, 신선한 무화과와 카다멈의 조화가 빚어내는 고요함과 나른한 오후를 표현한 향입니다.
+                        <br>언제 어디서든 주말 오후의 느낌을 간직해보세요!
+                    </p>
+                    <div class="cart_wrap">
+                        <p class="cart"><a href="#">ADD CART</a></p>
+                        <p class="buy"><a href="#">BUY</a></p>
+                    </div>
+                    <ul>
+                        <li><a href="#" id="button1"><img src="image/page/img_m.jpg" alt="btn">
+                        </a></li>
+                        <li><a href="#" id="button2"><img src="image/page/img2_m.jpg" alt="btn"></a></li>
+                        <li><a href="#" id="button3"><img src="image/page/img3_m.jpg" alt="btn"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="detail">
+            <p><img src="image/page/detail.jpg" alt="detail">
+        </div>
+        <div id="footer">
+            <div class="text_wrap">
+              <p>주)ReCor | 사업자등록번호: 123-45-12345 | 대표자: 이소민 | 부산광역시 중구 중앙대로 26  | 대표번호: 1234-5678 | 이메일:Cs@ReCor.com 
+                <br>개인정보 보호 책임자: 이소민 | 호스팅 서비스 사업자: Abc </p>
+            </div>
+          </div>
+    </div>
+
+    <!-- 오픈소스 -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- 제어코드 -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
