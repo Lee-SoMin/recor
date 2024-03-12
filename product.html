@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="1400px">
+    <title>product</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="image/logo2.png" type="image/x-icon">
+    <!-- webfont -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'eau7ogs',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <!-- XEicon -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/xpressengine/xeicon@2.3.1/xeicon.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/product.css">
+    <!-- js -->
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="top">
+            <div class="header">
+                <div class="logo"><a href="index.html"><img src="image/product/logo.png" alt="Logo"></a></div>
+                <div class="gnb_wrap">
+                    <ul class="gnb">
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="product.html">PRODUCT</a></li>
+                        <li><a href="#">FIND</a></li>
+                        <li><a href="#">NOTICE</a></li>
+                    </ul>
+                </div>
+            </div>
+            <h1 class="banner_title">PRODUCT</h1>
+        </div>
+        <div id="container">
+            <div class="menu">
+                <ul>
+                    <li id="button1"><a href="#">
+                            <h1>01.</h1>
+                            <p>Perfume</p>
+                        </a>
+                    </li>
+                    <li id="button2"><a href="#">
+                            <h1>02.</h1>
+                            <p>Home Fragrance</p>
+                        </a></li>
+                    <li id="button3"><a href="#">
+                            <h1>03.</h1>
+                            <p>Hand</p>
+                        </a></li>
+                    <li id="button4"><a href="#">
+                            <h1>04.</h1>
+                            <p>Body & Face</p>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="search_wrap">
+                    <div class="layout">
+                        <ul>
+                            <li class="tap tablink opacity" onclick="openBoard(event,'Board01')"><i
+                                    class="xi-layout-full"></i></li>
+                            <li class="tap tablink" onclick="openBoard(event,'Board02')"><i class="xi-apps"></i></li>
+                            <li class="tap tablink" onclick="openBoard(event,'Board03')"><i class="xi-bars"></i></li>
+                        </ul>
+                    </div>
+                    <div class="search_bar">
+                        <i class="xi-search"></i>
+                        <form action="">
+                            <input type="text" placeholder="search">
+                        </form>
+                    </div>
+                </div>
+                <div class="board_wrap">
+                    <div id="Board01" class="box1_1	board">
+                        <div class="u">
+                            <div class="u_l">
+                                <a href="#"><img src="image/product/perfume2.jpg" alt="img">
+                                </a>
+                            </div>
+                            <div class="u_r">
+                                <a href="#"><img src="image/product/perfume.jpg" alt="img">
+                                </a>
+                                <a href="#"><img src="image/product/candle.jpg" alt="img">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="d">
+                            <a href="#">
+                                <img src="image/product/paper.jpg" alt="img">
+                            </a>
+                            <a href="#">
+                                <img src="image/product/handcream.jpg" alt="img">
+                            </a>
+                            <a href="#">
+                                <img src="image/product/bodycream.jpg" alt="img">
+                            </a>
+                        </div>
+                    </div>
+                    <div id="Board02" class="box1_1	board" style="display:none;">
+                        <div class="d">
+                            <a href="#">
+                                <img src="image/product/paper.jpg" alt="img">
+                            </a>
+                            <a href="#">
+                                <img src="image/product/candle.jpg" alt="img"> </a>
+                            <a href="#">
+                                <img src="image/product/bodycream.jpg" alt="img">
+                            </a>
+                        </div>
+                        <div class="d">
+                            <a href="#">
+                                <img src="image/product/handcream.jpg" alt="img">
+                            </a>
+                            <a href="#">
+                                <img src="image/product/form.png" alt="img">
+                            </a>
+                            <a href="#">
+                                <img src="image/product/room.png" alt="img">
+                            </a>
+                        </div>
+                        <div class="d">
+                            <a href="#">
+                                <img src="image/product/perfume.jpg" alt="img">
+                            </a>
+                            <a href="#">
+                                <img src="image/product/candle2.png" alt="img">
+                            </a>
+                            <a href="#">
+                                <img src="image/product/candle3.png" alt="img">
+                            </a>
+                        </div>
+                    </div>
+                    <div id="Board03" class="box1_1	board" style="display:none;">
+                        <div class="third_wrap">
+                            <div class="l"><a href="#">
+                                    <img src="image/product/cleansing_m.png" alt="img">
+                                    <div class="text">
+                                        <p class="category">Face&body</p>
+                                        <h2>SANTAL MUSK</h2>
+                                        <h3>Cleansing Foam</h3>
+                                        <p class="what">샌달우드 | 베티버 | 무화과 | 카다멈</p>
+                                        <p class="price">10,800원</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="r"><a href="#">
+                                    <img src="image/product/body_m.png" alt="img">
+                                    <div class="text">
+                                        <p class="category">Face&body</p>
+                                        <h2>SANTAL MUSK</h2>
+                                        <h3>Body Cream</h3>
+                                        <p class="what">샌달우드 | 베티버 | 무화과 | 카다멈</p>
+                                        <p class="price">23,800원</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="third_wrap">
+                            <div class="l"><a href="#">
+                                    <img src="image/product/room_m.png" alt="img">
+                                    <div class="text">
+                                        <p class="category">Home Fragrance</p>
+                                        <h2>SANTAL MUSK</h2>
+                                        <h3>Room Spray</h3>
+                                        <p class="what">샌달우드 | 베티버 | 무화과 | 카다멈</p>
+                                        <p class="price">15,800원</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="r"><a href="#">
+                                    <img src="image/product/hand_m.png" alt="img">
+                                    <div class="text">
+                                        <p class="category">Hand</p>
+                                        <h2>SANTAL MUSK</h2>
+                                        <h3>Hand Cream</h3>
+                                        <p class="what">샌달우드 | 베티버 | 무화과 | 카다멈</p>
+                                        <p class="price">9,800원</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="third_wrap">
+                            <div class="l"><a href="#">
+                                    <img src="image/product/candle_m.png" alt="img">
+                                    <div class="text">
+                                        <p class="category">Home Fragrance</p>
+                                        <h2>SANTAL MUSK</h2>
+                                        <h3>Candle</h3>
+                                        <p class="what">샌달우드 | 베티버 | 무화과 | 카다멈</p>
+                                        <p class="price">22,800원</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="r"><a href="#">
+                                    <img src="image/product/candle2_m.png" alt="img">
+                                    <div class="text">
+                                        <p class="category">Home Fragrance</p>
+                                        <h2>SANTAL MUSK</h2>
+                                        <h3>Candle</h3>
+                                        <p class="what">샌달우드 | 베티버 | 무화과 | 카다멈</p>
+                                        <p class="price">18,800원</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="third_wrap">
+                            <div class="l"><a href="#">
+                                    <img src="image/product/perfume_m.png" alt="img">
+                                    <div class="text">
+                                        <p class="category">Perfume</p>
+                                        <h2>Woodland</h2>
+                                        <h3>Eau de Parfum, 100ml                                        </h3>
+                                        <p class="what">히노키 | 프랑킨센스 | 유자 | 터키쉬 로즈</p>
+                                        <p class="price">50,800원</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="r"><a href="#">
+                                    <img src="image/product/perfume2_m.png" alt="img">
+                                    <div class="text">
+                                        <p class="category">perfume</p>
+                                        <h2>SANTAL MUSK</h2>
+                                        <h3>Eau de Parfum, 30ml                                        </h3>
+                                        <p class="what">샌달우드 | 베티버 | 무화과 | 카다멈</p>
+                                        <p class="price">30,800원</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="text_wrap">
+              <p>주)ReCor | 사업자등록번호: 123-45-12345 | 대표자: 이소민 | 부산광역시 중구 중앙대로 26  | 대표번호: 1234-5678 | 이메일:Cs@ReCor.com 
+                <br>개인정보 보호 책임자: 이소민 | 호스팅 서비스 사업자: Abc </p>
+            </div>
+          </div>
+    </div>
+
+    <!-- 오픈소스 -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- 제어코드 -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
