@@ -1,0 +1,266 @@
+@charset "utf-8";
+/* webfont */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 13px;
+    /* 1rem */
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: campaign-serif, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: #000;
+    background: linear-gradient(360deg, #AEAEAE, #ffffff) no-repeat;
+}
+
+#wrap {
+    min-width: 1400px;
+}
+
+#top {
+    height: 1080px;
+    width: 1320px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gnb li a {
+    display: block;
+    padding: 30px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #30565A;
+}
+
+.gnb li a:hover {
+    opacity: 70%;
+    color: #56868b;
+}
+
+.banner_img {
+    position: absolute;
+    top: 221px;
+    right: -76px;
+    z-index: 15;
+}
+
+.banner_title {
+    position: absolute;
+    top: 389px;
+    left: 0px;
+    z-index: 320;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    line-height: 77px;
+    font-size: 144px;
+    font-weight: 900;
+    color: #30565A;
+    opacity: 92%;
+}
+
+.section{
+    font-family: jamak, sans-serif;
+    font-style: normal;
+    position: relative;
+}
+
+.link {
+    width: 1320px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.link ul {
+    display: flex;
+    width: 1320px;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -660px;
+    z-index: 33;
+    padding-top: 150px;
+}
+
+.link>ul>li>a {
+    display: block;
+    padding: 15px 100px;
+    background-color: #f2f2f385;
+    border-radius: 10px;
+    color: #30565A;
+    font-weight: 500;
+}
+
+.link>ul>li.on>a {
+    background-color: #30565a79;
+    color: #f2f2f3;
+}
+.img_slide{
+    text-align: center;
+    color: #f2f2f3;
+    height: 980px;
+    background: url(../image/find/bg.jpg) no-repeat center;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.E {
+    font-family: campaign-serif, sans-serif;
+    font-style: normal;
+}
+
+.E_title {
+    font-size: 80px;
+    padding: 350px 0 50px;
+}
+
+span {
+    color: #6FA799;
+    font-size: 60px;
+}
+
+p.E {
+    padding: 20px 0 100px;
+    font-size: 30px;
+}
+
+p.text{
+    font-size: 18px;
+    line-height: 28px;
+}
+.more{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 130px;
+    left: 50%;
+    margin-left: -50px;
+    z-index: 4;
+    color: #6FA799;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.content2{
+    width: 1320px;
+    height: 1080px;
+    margin: 0 auto;
+    position: relative;
+}
+.position1{
+    position: absolute;
+    top: 121px;
+    left: 179px;
+}
+.position2{
+    position: absolute;
+    top: 304px;
+    left: 510px;
+    z-index: 466;
+}
+.box{
+    width: 294px;
+    height: 378px;
+    border: 1px solid #30565A;
+    position: absolute;
+    top: 250px;
+    left: 480px;
+    z-index: 45;
+}
+.position3{
+    position: absolute;
+    top: 121px;
+    right: 179px;
+}
+.position4{
+    position: absolute;
+    bottom: 110px;
+    left: 200px;
+    z-index: 566;
+}
+.position5{
+    position: absolute;
+    bottom: 90px;
+    right: 196px;
+    z-index: 4568;
+}
+.box2{
+    width: 294px;
+    height: 378px;
+    border: 1px solid #30565A;
+    position: absolute;
+    bottom: 123px;
+    right: 135px;
+}
+.p_img_wrap{
+    position: relative;
+    width: 294px;
+}
+.cover{
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.cover_t{
+    font-size: 16px;
+    font-weight: 400;
+}
+.cover p{
+    color: #3D3D3D;
+    padding: 20px 0 0 20px;
+}
+.p_img_wrap:hover .cover{
+    opacity: 1;
+}
+#footer{
+    margin-top: 68px;
+    height: 150px;
+    background-color: #405852;
+  }
+  .text_wrap{
+    width: 1320px;
+    margin: 0 auto;
+    color: #f2f2f38f;
+    font-family: jamak, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 50px;
+    line-height: 30px;
+    font-size: 15px;
+  }
