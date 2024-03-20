@@ -31,6 +31,8 @@ function openBoard(evt, boardName) {
 // img_change
 
 $(function(){
+    $(".img").hide();
+    $(".img1").show();
     $("#button1").click(function(){
 
             $(".img1").fadeIn().siblings().fadeOut();
