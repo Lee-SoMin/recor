@@ -12,7 +12,6 @@ setInterval(function(){
     },0);
 });
 
-
 //tab
 function openBoard(evt, boardName) {
     var i, x, tablinks;
@@ -49,7 +48,6 @@ $(function(){
         $(this).parent().addClass("on").siblings().removeClass("on")
     });
 });
-
 
 // scroll
 $(".more").click(function(){
