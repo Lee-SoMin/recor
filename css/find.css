@@ -72,7 +72,7 @@ body {
 .banner_img {
     position: absolute;
     top: 221px;
-    right: -76px;
+    right: -38px;
     z-index: 15;
 }
 
@@ -83,7 +83,7 @@ body {
     z-index: 320;
     text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
     line-height: 77px;
-    font-size: 144px;
+    font-size: 130px;
     font-weight: 900;
     color: #30565A;
     opacity: 92%;
