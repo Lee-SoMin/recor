@@ -43,6 +43,9 @@ $(function(){
 
             $(".img3").fadeIn().siblings().fadeOut();
     });	
+    $(".link ul li a").click(function(){
+        $(this).parent().addClass("on").siblings().removeClass("on")
+    });
 });
 
 
