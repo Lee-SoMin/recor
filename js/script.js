@@ -44,3 +44,11 @@ $(function(){
             $(".img3").fadeIn().siblings().fadeOut();
     });	
 });
+
+
+// scroll
+$(".more").click(function(){
+    $("body,html").animate({
+        scrollTop: 2160
+    },700)
+});
