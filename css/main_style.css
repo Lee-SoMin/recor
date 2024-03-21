@@ -306,7 +306,7 @@ body {
     padding-right: 173px;
     color: #30565A;
 }
-.content2_L:hover, .content2_R:hover{
+.content2_L a:hover, .content2_R a:hover{
     opacity: 80%;
 }
 .content3 {
