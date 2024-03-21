@@ -306,8 +306,8 @@ body {
     padding-right: 173px;
     color: #30565A;
 }
-.more a:hover, .more_R a:hover{
-    color: #56868b;
+.content2_L:hover, .content2_R:hover{
+    opacity: 80%;
 }
 .content3 {
     width: 1320px;
