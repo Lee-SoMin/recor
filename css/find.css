@@ -146,9 +146,10 @@ body {
     position: relative;
 }
 .img{
+    width: 100%;
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 0;
 }
 .E {
     font-family: campaign-serif, sans-serif;
